@@ -1,0 +1,52 @@
+.o-header{
+    width: 100%;
+    min-height: 720px;
+    background-color: hsl(193, 100%, 96%);
+    background-image: url('/public/images/bg-hero-desktop.svg');
+}
+
+.o-navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 80px 70px 80px
+}
+
+.o-header img{
+    width: 200px;
+    height: 30px;
+}
+
+.o-hero{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 80px;
+}
+
+.hero-text{
+    width: 50%;
+}
+
+.hero-title{
+    width: 435px;
+    font-size: 37px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-paragraph{
+    width: 500px;
+    font-size: 17.5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hero-img{
+    width: 50%;
+}
+
+.hero-img img{
+    width: 100%;
+    height: auto;
+}

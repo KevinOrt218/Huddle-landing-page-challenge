@@ -1,0 +1,82 @@
+footer{
+    background-color: hsl(192, 100%, 9%);
+    color:white;
+    padding: 140px 120px 65px 120px;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between
+}
+
+.contact-info{
+    width: 400px;
+    font-size: 15px;
+}
+
+.o-huddle-logo {
+    width: 220px;
+    margin-bottom: 12px;
+}
+
+.o-flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+}
+
+.o-location img{
+    margin-bottom: 2.5rem;
+}
+
+.o-info-links{
+    margin-top: 45px;
+    padding: 0;
+    line-height: 45px;
+    list-style: none;
+}
+
+.o-info-links a{
+    color: white;
+    text-decoration: none;
+}
+
+.o-info-links a:hover {
+    text-decoration:underline;
+}
+
+.o-social-container{
+    width: auto;
+    height: 245px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.o-social-container p{
+    font-size: 14px;
+}
+
+.o-social-icons{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-top: 44px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    text-decoration:none;
+}
+
+.icon-container:hover {
+    color: hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
+}
