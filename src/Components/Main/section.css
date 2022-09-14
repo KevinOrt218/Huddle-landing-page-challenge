@@ -1,6 +1,6 @@
 .o-article{
     width: 100%;
-    height: auto;
+    height: 440px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
