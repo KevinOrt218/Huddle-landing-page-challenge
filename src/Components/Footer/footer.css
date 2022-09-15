@@ -1,7 +1,7 @@
 footer{
     background-color: hsl(192, 100%, 9%);
     color:white;
-    padding: 140px 120px 30px 120px;
+    padding: 140px 120px 125px 120px;
     display: flex;
     align-items:flex-start;
     justify-content: space-between
