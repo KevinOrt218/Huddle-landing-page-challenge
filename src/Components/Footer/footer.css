@@ -1,7 +1,7 @@
-footer{
+.o-footer{
     background-color: hsl(192, 100%, 9%);
     color:white;
-    padding: 140px 120px 125px 120px;
+    padding: 140px 120px 55px 120px;
     display: flex;
     align-items:flex-start;
     justify-content: space-between
@@ -46,7 +46,7 @@ footer{
 
 .o-social-container{
     width: auto;
-    height: 245px;
+    height: 365px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
