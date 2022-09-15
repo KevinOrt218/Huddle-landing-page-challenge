@@ -2,7 +2,7 @@ import "./footer.css";
 
 export function Footer() {
   return (
-    <footer>
+    <footer className="o-footer">
       <div className="contact-info">
         <img
           src="/images/logo-white.svg"
