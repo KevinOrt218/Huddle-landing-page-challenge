@@ -49,3 +49,25 @@
 .o-button-main:hover {
     background-color: #FF9BDB;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .o-button-bg-header {
+        width: 115px;
+        height: 30px;
+        font-size: 13px;
+    }
+
+    .o-button-bg-hero {
+        width: 290px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .o-button-main {
+        width: 280px;
+        height: 50px;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+}

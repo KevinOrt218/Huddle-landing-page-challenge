@@ -50,3 +50,56 @@
     width: 100%;
     height: auto;
 }
+
+/* Responsive design */
+@media only screen and (max-width: 600px) {
+
+    .o-navbar {
+        padding: 35px 25px 70px 25px;
+    }
+
+    .o-header img {
+        width: 130px;
+        height: 20px;
+    }
+
+    .o-hero {
+        flex-direction: column;
+        padding: 0 40px;
+    }
+
+    .hero-text {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .hero-title {
+        max-width: 365px;
+        font-size: 33px;
+        text-align: center;
+    }
+
+    .hero-paragraph {
+        max-width: 500px;
+        font-size: 22.5px;
+        padding: 5px 40px;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    .hero-img {
+        width: 100%;
+        margin-top: 65px;
+        text-align: center;
+    }
+
+    .hero-img img {
+        width: 380px;
+        height: 255px;
+    }
+
+}

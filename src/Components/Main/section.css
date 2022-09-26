@@ -55,3 +55,42 @@
     font-size: 30px;
     font-family:'Poppins',sans-serif;
 }
+
+@media only screen and (max-width: 600px) {
+    .o-article {
+        width: 535px;
+        height: 590px;
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 45px;
+    }
+
+    .o-info-container p {
+        max-width: 320px;
+    }
+    
+    .o-img {
+        max-width: 280px;
+        height: 230px;
+    }
+
+    .o-info-container{
+        text-align: center;
+    }
+
+    .o-article-invert {
+        flex-direction: column-reverse;
+    }
+
+    .calltoact-info {
+        width: 535px;
+        height: 215px;
+    }
+
+    .calltoact-info h2 {
+        font-size: 25px;
+    }
+
+}
